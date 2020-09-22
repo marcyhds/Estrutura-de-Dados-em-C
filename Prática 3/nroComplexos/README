@@ -1,0 +1,18 @@
+Exercício sobre Tipo Abstrato de Dados
+
+Especifique e implemente um TAD que represente números complexos. Sabe-se
+que um número complexo é escrito da forma a + bi, sendo a a sua parte real e b a
+sua parte imaginária. Ambas as partes representam valores reais e podem ser
+zero. Esse TAD deve contemplar as seguintes operações:
+(a) cria_nro: cria um no complexo e atribui valores para as partes real e imaginária.
+(b) libera_nro: elimina um número complexo.
+(c) soma: soma dois números complexos.
+(d) sub: subtrai dois números complexos.
+(e) mult: multiplica dois números complexos (lembrando que i^2 = −1)
+
+O programa aplicativo irá ler três números complexos (C1, C2 e C3) e apresentar o
+resultado da seguinte expressão: (C1 – C3) * C2. Para isto, o programa deve
+solicitar ao usuário que informe a parte real e imaginária de três números
+complexos e criá-los (um de cada vez). Em seguida, resolver a expressão
+utilizando as operações disponíveis, apresentar o resultado na tela e liberar o
+espaço alocado pelos três números.
