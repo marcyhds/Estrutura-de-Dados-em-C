@@ -1,0 +1,10 @@
+Exercício sobre Lista Dinâmica/Encadeada
+
+Implementar, utilizando a alocação dinâmica e o acesso encadeada, o TAD lista linear
+ordenada de inteiros. Nessa implementação a lista segue uma ordenação decrescente. Além
+das operações básicas (inicializar_lista, lista_vazia, lista_cheia, insere_ord e remove_ord),
+o TAD também deve contemplar a operação get_pos, que retorna o conteúdo do elemento na
+posição indicada, caso ele exista; e remove_pos, que remove e retorna o valor de elemento
+que está na posição indicada, se existente. Por fim, também desenvolva um programa aplicativo
+que permita ao usuário inicializar uma lista, inserir e remover elementos (1ª ocorrência ou
+por posição) e imprimir a lista.
