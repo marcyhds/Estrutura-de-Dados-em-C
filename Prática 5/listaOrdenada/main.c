@@ -1,6 +1,6 @@
 
 /*
-    LISTA DINÂMICA/ENCADEADA - ORDENADA DECRESCENTE
+    LISTA DINÃ‚MICA/ENCADEADA - ORDENADA DECRESCENTE
     Feito por Marcela Neves Belchior
     Data: 22/09/2020
 */
@@ -31,6 +31,8 @@ int main()
     remove_pos(&l,4,&elem);
 
     imprime_lista(l);
+    
+    l = inicializar_lista();
 
     return 0;
 }
