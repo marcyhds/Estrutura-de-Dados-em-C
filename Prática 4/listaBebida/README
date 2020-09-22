@@ -1,0 +1,15 @@
+Exercício sobre Lista Estática/Sequencial
+
+Implementar, utilizando a alocação estática e o acesso sequencial, o TAD lista
+linear ordenada de bebidas, sendo que cada bebida contém as informações descritas
+a seguir. O ordenação deve ser feita pelo nome da bebida e, no caso de empate, pelo 
+seu volume. Além das operações básicas (inicializa_lista, lista_vazia, lista_cheia,
+insere_ord e remove_ord), o TAD também deve contemplar a operação get_pos, que retorna
+o conteúdo do elemento da posição solicitada, se existente. A operação de remoção deve 
+receber o nome da bebida e retirar apenas sua 1ª ocorrência na lista. Por fim, também 
+desenvolva um programa aplicativo que permita ao usuário inicializar a lista, inserir e
+remover elementos da lista e imprimir a lista.
+
+Bebida: Nome char[20]
+        Volume (ml) int
+        Preço float
