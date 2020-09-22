@@ -1,0 +1,15 @@
+Exercício sobre Tipo Abstrato de Dados
+
+Utilizando o TAD ponto criado no exercício anterior, especifique e implemente o
+TAD esfera. Vale destacar que, uma esfera pode ser representada pelo seu raio, o
+qual é uma reta entre 2 pontos. Esse TAD deve contemplar as seguintes
+operações:
+(a) cria_esfera: cria uma instância de esfera, incluindo a inicialização de seus
+valores.
+(b) libera_esfera: elimina uma esfera da memória.
+(c) raio: determina o cumprimento do raio da esfera.
+(d) área: determina a área da esfera.
+(e) volume: determina o volume da esfera.
+O programa aplicativo deve ler os dados da esfera (pontos que determinam o seu
+raio) e apresentar o cumprimento do seu raio, sua área e seu volume. Ao final, a
+esfera deve ser liberada.
