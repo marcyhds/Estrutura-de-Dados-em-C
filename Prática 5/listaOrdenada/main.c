@@ -50,4 +50,5 @@ void imprime_lista(Lista lst){
         }
         printf("\b\b}\n");
     }
+    return;
 }
