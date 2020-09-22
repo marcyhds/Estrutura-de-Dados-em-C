@@ -19,8 +19,6 @@ Lista inicializar_lista(){
     return lst;
 }
 
-
-
 int lista_vazia(Lista lst){
     if(lst->fim == 0)
         return 1;
@@ -28,16 +26,12 @@ int lista_vazia(Lista lst){
         return 0;
 }
 
-
-
 int lista_cheia(Lista lst){
     if(lst->fim == max)
         return 1;
     else
         return 0;
 }
-
-
 
 int insere_elem(Lista *lst, char elem[]){
     if(lst == NULL || lista_cheia(lst) == 1)
