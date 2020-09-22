@@ -1,0 +1,14 @@
+Exercício sobre Lista Dinâmica/Encadeada
+
+Implementar, utilizando a alocação dinâmica e o acesso encadeada, o TAD lista linear
+não-ordenada de alunos, sendo que cada aluno possui as informações descritas a seguir.
+Além das operações básicas (inicializar_lista, lista_vazia, lista_cheia, insere_elem e 
+remove_elem), o TAD também deve contemplar as operações: get_pos, que retorna o valor do
+elemento na posição solicitada, se existente; e size_lista, que retorna a quantidade de
+elementos da lista. Por fim, desenvolva um programa aplicativo que permita ao usuário
+inicializar a lista, inserir e remover elementos, imprimi-la e apresentar o seu tamanho.
+
+Aluno: Matrícula - unsigned int
+       Nome - char[20]
+       Média - float
+       Faltas - int
