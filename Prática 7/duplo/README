@@ -1,0 +1,9 @@
+  Exercício sobre Lista Dinâmica/Encadeada
+  
+  Implementar, utilizando a implementação dinâmica com encadeamento duplo, o TAD lista linear
+  não ordenada de números inteiros. Essa implementação deve contemplar as operações básicas:
+  cria_lista, lista_vazia, insere_elemento, remove_elemento e obtem_valor_elem. Além disso,
+  desenvolva um programa aplicativo que permita ao usuário inicializar uma lista, inserir e 
+  remover elementos e imprimir a lista.
+  
+  Fazer funções remove e insere ordenada.
