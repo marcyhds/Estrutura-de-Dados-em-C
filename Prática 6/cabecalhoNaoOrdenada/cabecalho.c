@@ -1,6 +1,6 @@
 
 /*
-    LISTA DINÂMICA/ENCADEADA - CABEÇALHO NÃO ORDENADA
+    LISTA DINÃ‚MICA/ENCADEADA - CABEÃ‡ALHO
     Feito por Marcela Neves Belchior
     Data: 22/09/2020
 */
@@ -47,6 +47,39 @@ int remove_elem(Lista *lst, int elem){
     while(aux->prox!=NULL && aux->prox->info!=elem)
         aux = aux->prox;
     if(aux->prox==NULL)
+        return 0;
+    Lista aux2 = aux->prox;
+    aux->prox = aux2->prox;
+    free(aux2);
+    (*lst)->info--;
+    return 1;
+}
+
+int insere_ord(Lista *lst, int elem){
+    Lista N = (Lista) malloc(sizeof(struct no));
+    if(N==NULL) return 0;
+
+    N->info = elem;
+
+    Lista aux = *lst;
+    while(aux->prox!=NULL && aux->prox->info<elem)
+        aux = aux->prox;
+
+    N->prox = aux->prox;
+    aux->prox = N;
+    (*lst)->info++;
+    return 1;
+}
+
+int remove_ord(Lista *lst, int elem){
+    if(lista_vazia(*lst))
+        return 0;
+
+    Lista aux = *lst;
+
+    while(aux->prox!=NULL && aux->prox->info<elem)
+        aux = aux->prox;
+    if(aux->prox==NULL || aux->prox->info>elem)
         return 0;
     Lista aux2 = aux->prox;
     aux->prox = aux2->prox;
