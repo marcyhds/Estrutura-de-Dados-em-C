@@ -1,0 +1,7 @@
+Exercício sobre Lista Dinâmica/Encadeada
+
+Implementar recursivamente, usando a forma dinâmica-encadeada simples, o TAD lista linear
+ordenada de números reais (double). Essa implementação deve contemplar as operações básicas:
+cria_lista, lista_vazia, insere_ord, remove_ord e obtem_elem. Além disso, desenvolva um
+programa aplicativo que permita ao usuário inicializar uma lista, inserir e remover elementos
+e imprimir a lista.
