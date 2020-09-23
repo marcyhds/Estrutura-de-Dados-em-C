@@ -1,6 +1,6 @@
 
 /*
-    LISTA DINÂMICA/ENCADEADA - CABEÇALHO NÃO ORDENADA
+    LISTA DINÃ‚MICA/ENCADEADA - CABEÃ‡ALHO ORDENADA
     Feito por Marcela Neves Belchior
     Data: 22/09/2020
 */
